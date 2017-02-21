@@ -1,0 +1,69 @@
+Select LAST_PO_NUM  from po_number
+28132401
+3
+N
+Black & Decker Washing Machine
+10289121
+21
+Y
+GE Humedifier
+11342389
+21
+Y
+GE Humedifier
+11342389
+Record is inserted into SAR_PO table!
+12
+Y
+GLEN Humedifier
+11342393
+12
+Y
+GLEN Humedifier
+11342393
+Record is inserted into SAR_PO table!
+20
+Y
+DVD - Meet the Fockers
+12003345
+20
+Y
+DVD - Meet the Fockers
+12003345
+Record is inserted into SAR_PO table!
+9
+Y
+DVD - Little Fockers
+12003346
+9
+Y
+DVD - Little Fockers
+12003346
+Record is inserted into SAR_PO table!
+6
+Y
+GE Eletric Iron Box
+13092138
+6
+Y
+GE Eletric Iron Box
+13092138
+Record is inserted into SAR_PO table!
+3
+Y
+Insigna 32 inch LED TV
+55634523
+3
+Y
+Insigna 32 inch LED TV
+55634523
+Record is inserted into SAR_PO table!
+16
+Y
+LG 37 inch LED-LCD TV
+55642311
+16
+Y
+LG 37 inch LED-LCD TV
+55642311
+Record is inserted into SAR_PO table!

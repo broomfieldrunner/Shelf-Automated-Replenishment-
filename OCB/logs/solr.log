@@ -1,0 +1,311 @@
+ERROR - 2017-02-17 11:35:16.961; com.smartbuy.ocb.main.OCBMain; This is final Error Handling com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':storeNumber' at line 1
+com.smartbuy.ocb.exception.OCBException: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':storeNumber' at line 1
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:44)
+	at com.smartbuy.ocb.main.OCBMain.main(OCBMain.java:25)
+Caused by: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':storeNumber' at line 1
+	at com.smartbuy.ocb.dao.OcbDAO.fetchSkuforStore(OcbDAO.java:57)
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:24)
+	... 1 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':storeNumber' at line 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2322)
+	at com.smartbuy.ocb.dao.OcbDAO.fetchSkuforStore(OcbDAO.java:41)
+	... 2 more
+ERROR - 2017-02-17 11:37:49.428; com.smartbuy.ocb.main.OCBMain; This is final Error Handling com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':storeNumber' at line 1
+com.smartbuy.ocb.exception.OCBException: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':storeNumber' at line 1
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:44)
+	at com.smartbuy.ocb.main.OCBMain.main(OCBMain.java:25)
+Caused by: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':storeNumber' at line 1
+	at com.smartbuy.ocb.dao.OcbDAO.fetchSkuforStore(OcbDAO.java:57)
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:24)
+	... 1 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':storeNumber' at line 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2322)
+	at com.smartbuy.ocb.dao.OcbDAO.fetchSkuforStore(OcbDAO.java:41)
+	... 2 more
+ERROR - 2017-02-17 12:54:48.992; com.smartbuy.ocb.main.OCBMain; This is final Error Handling com.smartbuy.ocb.exception.OCBException: java.sql.SQLException: Incorrect integer value: 'skuNumber' for column 'SKU_NUMBER' at row 1
+com.smartbuy.ocb.exception.OCBException: com.smartbuy.ocb.exception.OCBException: java.sql.SQLException: Incorrect integer value: 'skuNumber' for column 'SKU_NUMBER' at row 1
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:53)
+	at com.smartbuy.ocb.main.OCBMain.main(OCBMain.java:25)
+Caused by: com.smartbuy.ocb.exception.OCBException: java.sql.SQLException: Incorrect integer value: 'skuNumber' for column 'SKU_NUMBER' at row 1
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:96)
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:45)
+	... 1 more
+Caused by: java.sql.SQLException: Incorrect integer value: 'skuNumber' for column 'SKU_NUMBER' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:88)
+	... 2 more
+ERROR - 2017-02-17 12:56:05.059; com.smartbuy.ocb.main.OCBMain; This is final Error Handling com.smartbuy.ocb.exception.OCBException: java.sql.SQLException: Incorrect integer value: 'Y' for column 'IS_APPROVED' at row 1
+com.smartbuy.ocb.exception.OCBException: com.smartbuy.ocb.exception.OCBException: java.sql.SQLException: Incorrect integer value: 'Y' for column 'IS_APPROVED' at row 1
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:53)
+	at com.smartbuy.ocb.main.OCBMain.main(OCBMain.java:25)
+Caused by: com.smartbuy.ocb.exception.OCBException: java.sql.SQLException: Incorrect integer value: 'Y' for column 'IS_APPROVED' at row 1
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:96)
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:45)
+	... 1 more
+Caused by: java.sql.SQLException: Incorrect integer value: 'Y' for column 'IS_APPROVED' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:88)
+	... 2 more
+ERROR - 2017-02-17 20:20:09.550; com.smartbuy.ocb.main.OCBMain; This is final Error Handling com.smartbuy.ocb.exception.OCBException: java.sql.SQLException: Invalid value for getInt() - 'N'
+com.smartbuy.ocb.exception.OCBException: com.smartbuy.ocb.exception.OCBException: java.sql.SQLException: Invalid value for getInt() - 'N'
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:46)
+	at com.smartbuy.ocb.main.OCBMain.main(OCBMain.java:25)
+Caused by: com.smartbuy.ocb.exception.OCBException: java.sql.SQLException: Invalid value for getInt() - 'N'
+	at com.smartbuy.ocb.dao.OcbDAO.fetchSkuforStore(OcbDAO.java:62)
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:24)
+	... 1 more
+Caused by: java.sql.SQLException: Invalid value for getInt() - 'N'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2762)
+	at com.smartbuy.ocb.dao.OcbDAO.fetchSkuforStore(OcbDAO.java:53)
+	... 2 more
+ERROR - 2017-02-17 20:21:20.973; com.smartbuy.ocb.main.OCBMain; This is final Error Handling com.smartbuy.ocb.exception.OCBException: java.sql.SQLException: Invalid value for getInt() - 'N'
+com.smartbuy.ocb.exception.OCBException: com.smartbuy.ocb.exception.OCBException: java.sql.SQLException: Invalid value for getInt() - 'N'
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:46)
+	at com.smartbuy.ocb.main.OCBMain.main(OCBMain.java:25)
+Caused by: com.smartbuy.ocb.exception.OCBException: java.sql.SQLException: Invalid value for getInt() - 'N'
+	at com.smartbuy.ocb.dao.OcbDAO.fetchSkuforStore(OcbDAO.java:62)
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:24)
+	... 1 more
+Caused by: java.sql.SQLException: Invalid value for getInt() - 'N'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2762)
+	at com.smartbuy.ocb.dao.OcbDAO.fetchSkuforStore(OcbDAO.java:53)
+	... 2 more
+ERROR - 2017-02-19 18:14:12.656; com.smartbuy.ocb.main.OCBMain; This is final Error Handling com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'PoNumber' in 'field list'
+com.smartbuy.ocb.exception.OCBException: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'PoNumber' in 'field list'
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:56)
+	at com.smartbuy.ocb.main.OCBMain.main(OCBMain.java:43)
+Caused by: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'PoNumber' in 'field list'
+	at com.smartbuy.ocb.dao.OcbDAO.updateLastPoNum(OcbDAO.java:158)
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:50)
+	... 1 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'PoNumber' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2728)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2678)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:894)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:732)
+	at com.smartbuy.ocb.dao.OcbDAO.updateLastPoNum(OcbDAO.java:151)
+	... 2 more
+ERROR - 2017-02-19 18:17:12.442; com.smartbuy.ocb.main.OCBMain; This is final Error Handling com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'PoNumber' in 'field list'
+com.smartbuy.ocb.exception.OCBException: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'PoNumber' in 'field list'
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:56)
+	at com.smartbuy.ocb.main.OCBMain.main(OCBMain.java:43)
+Caused by: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'PoNumber' in 'field list'
+	at com.smartbuy.ocb.dao.OcbDAO.updateLastPoNum(OcbDAO.java:157)
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:50)
+	... 1 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'PoNumber' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2728)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2678)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:894)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:732)
+	at com.smartbuy.ocb.dao.OcbDAO.updateLastPoNum(OcbDAO.java:150)
+	... 2 more
+ERROR - 2017-02-19 18:17:58.937; com.smartbuy.ocb.main.OCBMain; This is final Error Handling com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132402-11342389-501' for key 'PRIMARY'
+com.smartbuy.ocb.exception.OCBException: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132402-11342389-501' for key 'PRIMARY'
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:56)
+	at com.smartbuy.ocb.main.OCBMain.main(OCBMain.java:43)
+Caused by: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132402-11342389-501' for key 'PRIMARY'
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:99)
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:45)
+	... 1 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132402-11342389-501' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:91)
+	... 2 more
+ERROR - 2017-02-19 18:23:56.375; com.smartbuy.ocb.main.OCBMain; This is final Error Handling com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132402-11342389-501' for key 'PRIMARY'
+com.smartbuy.ocb.exception.OCBException: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132402-11342389-501' for key 'PRIMARY'
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:56)
+	at com.smartbuy.ocb.main.OCBMain.main(OCBMain.java:43)
+Caused by: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132402-11342389-501' for key 'PRIMARY'
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:99)
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:45)
+	... 1 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132402-11342389-501' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:91)
+	... 2 more
+ERROR - 2017-02-19 18:30:30.188; com.smartbuy.ocb.main.OCBMain; This is final Error Handling com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132401-11342389-501' for key 'PRIMARY'
+com.smartbuy.ocb.exception.OCBException: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132401-11342389-501' for key 'PRIMARY'
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:56)
+	at com.smartbuy.ocb.main.OCBMain.main(OCBMain.java:43)
+Caused by: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132401-11342389-501' for key 'PRIMARY'
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:99)
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:45)
+	... 1 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132401-11342389-501' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:91)
+	... 2 more
+ERROR - 2017-02-19 18:34:26.646; com.smartbuy.ocb.main.OCBMain; This is final Error Handling com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132401-11342389-501' for key 'PRIMARY'
+com.smartbuy.ocb.exception.OCBException: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132401-11342389-501' for key 'PRIMARY'
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:56)
+	at com.smartbuy.ocb.main.OCBMain.main(OCBMain.java:43)
+Caused by: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132401-11342389-501' for key 'PRIMARY'
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:100)
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:45)
+	... 1 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132401-11342389-501' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:92)
+	... 2 more
+ERROR - 2017-02-19 18:34:53.319; com.smartbuy.ocb.main.OCBMain; This is final Error Handling com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132401-11342389-501' for key 'PRIMARY'
+com.smartbuy.ocb.exception.OCBException: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132401-11342389-501' for key 'PRIMARY'
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:56)
+	at com.smartbuy.ocb.main.OCBMain.main(OCBMain.java:43)
+Caused by: com.smartbuy.ocb.exception.OCBException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132401-11342389-501' for key 'PRIMARY'
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:100)
+	at com.smartbuy.ocb.bo.OcbBO.executeGetSkuforStore(OcbBO.java:45)
+	... 1 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '28132401-11342389-501' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at com.smartbuy.ocb.dao.OcbDAO.insertSarPoTable(OcbDAO.java:92)
+	... 2 more
